@@ -1,0 +1,91 @@
+body {
+	font-family: "Helvvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+
+	background:#f4f4f4;
+	color: #44454a;
+
+	margin: 40px 0;
+}
+
+section.container {
+	padding: 100px 0;
+	border-bottom: 1px solid #eeeeee;
+}
+
+h2 {
+	font-size: 21px;
+	font-weight: 700;
+	color: #ef3e2f;
+}
+
+header {
+	text-align: center;
+}
+
+h1 img{
+	width: 400px;
+}
+
+nav {
+	background-color: #dcdcde;
+	padding: 20px;
+}
+
+nav a {
+	color: #424246;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+nav a.hover {
+	color: #ef3e2f;
+}
+
+footer.container {
+	padding: 40px 0;
+	text-align: center;
+	color: #cccccc;
+}
+
+/*making image shift with shaddow when hovering over it*/
+section img {
+	position: relative;
+	transition: all 0.25s ease;
+}
+
+section img:hover {
+	top: -5px;
+	box-shadow: 0px 5px 3px rgba(0,0,0,0.25)
+}
+
+/*JAVA light box*/
+
+div#lightbox {
+	background-color: rgba(0,0,0,0.75);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: none;
+}
+
+div#lightbox img{
+	width: 940px;
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
